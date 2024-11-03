@@ -14,4 +14,9 @@ public class HomeController : ControllerBase
     {
         return Ok("Sagol");
     }
+
+    public IActionResult Task1()
+    {
+        return Ok("Task 1 is ready .");
+    }
 }
